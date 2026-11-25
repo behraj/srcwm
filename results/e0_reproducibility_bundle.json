@@ -48,5 +48,54 @@
    "sha256": "c36c1e4610dae65945902fd6d0d577d27ab3bb6352392878d284074a1c3c2c14"
   }
  },
- "manifest": []
+ "manifest": [],
+ "census_slices": {
+  "recorded_post_hoc": true,
+  "note": "Added after the SMOKE evidence run: these SHA-256 digests were computed directly from the smoke-run artifacts on disk (2026-11-25), not written by the notebook during that run. Future runs record them inside cell E10.",
+  "recorded_utc": "2026-11-25T03:21:57.674516+00:00",
+  "slices": {
+   "data/_census_sample_AD.csv": {
+    "written": true,
+    "description": "Census slice selection, AD (brain)",
+    "census_version": "2025-11-08",
+    "bytes": 155522,
+    "sha256": "85d1ff4d92e7fe24364c53eff09ea8dda1bfa84d6cec27a194959201d447eac3"
+   },
+   "results/census_centroids_AD.csv": {
+    "written": true,
+    "description": "Census cell-type centroids, AD (brain)",
+    "census_version": "2025-11-08",
+    "bytes": 1346785,
+    "sha256": "60208bc33b36922c56155fa6600cb344470abf1d664fd1cadc152a86335f2766"
+   },
+   "data/_census_sample_IPF.csv": {
+    "written": true,
+    "description": "Census slice selection, IPF (lung)",
+    "census_version": "2025-11-08",
+    "bytes": 105022,
+    "sha256": "3c7ab79183d49fda51eeaabd61c4b511de728800aa2e602b56c7b256281ce053"
+   },
+   "results/census_centroids_IPF.csv": {
+    "written": true,
+    "description": "Census cell-type centroids, IPF (lung)",
+    "census_version": "2025-11-08",
+    "bytes": 1066993,
+    "sha256": "3b1ada2ff25e1dce7dad35b725f34d497032b80e9da03af50f20385535acd3b9"
+   },
+   "data/_census_sample_RA.csv": {
+    "written": true,
+    "description": "Census slice selection, RA (blood)",
+    "census_version": "2025-11-08",
+    "bytes": 122022,
+    "sha256": "d5c86e4d26fae107e1f183c358c993fbddb7c8cfa0e62df3e3845cc6df778e10"
+   },
+   "results/census_centroids_RA.csv": {
+    "written": true,
+    "description": "Census cell-type centroids, RA (blood)",
+    "census_version": "2025-11-08",
+    "bytes": 953997,
+    "sha256": "00545d14cf06502dcb24f164e815544f70f21069ffcc0341c906946ff1ae7867"
+   }
+  }
+ }
 }
