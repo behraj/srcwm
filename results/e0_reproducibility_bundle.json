@@ -1,0 +1,52 @@
+{
+ "run": {
+  "config_hash": "5fc135027828f6e0",
+  "created_utc": "2026-11-25T02:53:12.349293+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "numpy": "2.5.5",
+  "pandas": "2.3.3",
+  "scipy": "1.18.1",
+  "census_version": "2025-11-08",
+  "seed": 0,
+  "profile": "SMOKE"
+ },
+ "artifacts": {
+  "results/e0_disease_deltas.json": {
+   "written": true,
+   "description": "disease signatures (real GEO ingestion)",
+   "sha256": "559505efb1093f6b474517befd9f81409f013622c2e0b4b5c6a994e2e5720856"
+  },
+  "results/e4_synthetic_known_answer.json": {
+   "written": true,
+   "description": "synthetic world LOGO P@25 / NDB",
+   "sha256": "02b3705f56757ee7bceeeb395e53104c5309bb56922367df6821b49535f16464"
+  },
+  "results/e4_synthetic_bootstrap.json": {
+   "written": true,
+   "description": "paired bootstrap + Holm (synthetic)",
+   "sha256": "693cde8ec1c078746011a9fc098a9948336d88cf70e46e4ecc65ed91cf29bec2"
+  },
+  "results/e3_lifting.json": {
+   "written": true,
+   "description": "Census lifting E3.1 / E3.2 + scramble control",
+   "sha256": "c18c208accd009a20dae7b79ee14a46c3ca0c0a78fca9c2ca9e9dd7e40bb9724"
+  },
+  "results/e9_label_scramble.json": {
+   "written": true,
+   "description": "E9 label-scramble on real series",
+   "sha256": "483c84ea18a79c74240064de9abb23016c1ec4793abb6c6b6969335f946db9cd"
+  },
+  "results/e0_run_summary.json": {
+   "written": true,
+   "description": "profile summary / gate status",
+   "sha256": "dd7e21c7a8e5b90c70b0bbe646eef6e026239a43fb4a8d95b872577363ec5da0"
+  },
+  "figures/e3_lifting_attribution.png": {
+   "written": true,
+   "description": "per-disease cell-type attribution",
+   "sha256": "c36c1e4610dae65945902fd6d0d577d27ab3bb6352392878d284074a1c3c2c14"
+  }
+ },
+ "manifest": []
+}

@@ -1,0 +1,1 @@
+{"D1": {"P25_srcwm": 0.12, "P25_mlin": 0.12, "NDB_srcwm": 0.5780320813141899, "NDB_mlin": 0.49157037381762253, "shared_in_top5": 3.0}, "D2": {"P25_srcwm": 0.12, "P25_mlin": 0.12, "NDB_srcwm": 1.0, "NDB_mlin": 1.0, "shared_in_top5": 3.0}, "D3": {"P25_srcwm": 0.12, "P25_mlin": 0.12, "NDB_srcwm": 0.5780320813141899, "NDB_mlin": 0.7046519385592166, "shared_in_top5": 3.0}}

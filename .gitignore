@@ -1,0 +1,5 @@
+# executed downloads are reproducible from the notebook and too large for git
+data/
+.ipynb_checkpoints/
+
+# small run artifacts (results/, figures/) ARE committed as execution evidence

@@ -1,0 +1,83 @@
+{
+ "AD": {
+  "status": "ok",
+  "cell_types": [
+   "GABAergic interneuron",
+   "GABAergic neuron",
+   "L2/3 intratelencephalic projecting glutamatergic neuron",
+   "L2/3-6 intratelencephalic projecting glutamatergic neuron",
+   "L3 intratelencephalic projecting glutamatergic neuron",
+   "L4 intratelencephalic projecting glutamatergic neuron"
+  ],
+  "attribution": [
+   0.0,
+   0.18072834674193783,
+   0.14018266135229826,
+   0.19176203559113755,
+   0.0,
+   0.487326956314619
+  ],
+  "top3": [
+   "L4 intratelencephalic projecting glutamatergic neuron",
+   "L2/3-6 intratelencephalic projecting glutamatergic neuron",
+   "GABAergic neuron"
+  ],
+  "e32_pass": true,
+  "internal_rel_error": 0.9110214369041959,
+  "scrambled_l1": 1.2550192353338345
+ },
+ "RA": {
+  "status": "ok",
+  "cell_types": [
+   "B cell",
+   "CD14-positive monocyte",
+   "CD14-positive, CD16-negative classical monocyte",
+   "CD38-negative naive B cell",
+   "CD4-positive helper T cell",
+   "CD4-positive, CD25-positive, alpha-beta regulatory T cell"
+  ],
+  "attribution": [
+   0.12341472133688565,
+   0.0,
+   0.4607248041528857,
+   0.41586047451022606,
+   0.0,
+   0.0
+  ],
+  "top3": [
+   "CD14-positive, CD16-negative classical monocyte",
+   "CD38-negative naive B cell",
+   "B cell"
+  ],
+  "e32_pass": true,
+  "internal_rel_error": 0.8621502303907113,
+  "scrambled_l1": 0.08972865928531926
+ },
+ "IPF": {
+  "status": "ok",
+  "cell_types": [
+   "alternatively activated macrophage",
+   "alveolar macrophage",
+   "cycling pulmonary alveolar type 2 cell",
+   "elicited macrophage",
+   "lung interstitial macrophage",
+   "lung macrophage"
+  ],
+  "attribution": [
+   0.0,
+   0.0,
+   0.02144789731425719,
+   0.978552102685725,
+   0.0,
+   0.0
+  ],
+  "top3": [
+   "elicited macrophage",
+   "cycling pulmonary alveolar type 2 cell",
+   "alveolar macrophage"
+  ],
+  "e32_pass": true,
+  "internal_rel_error": 0.9221658563049028,
+  "scrambled_l1": 0.04289579462851438
+ }
+}
