@@ -10,12 +10,17 @@ for line in gzip.decompress(cl).decode().splitlines():
         checksums[parts[1]] = parts[0]
 print("published SHA512SUMS entries:", len(checksums))
 
+n_verified = 0
 for m in MANIFEST:
     base = m["file"].split("/")[-1]
     if base in checksums:
         h = hashlib.sha512(open(m["file"], "rb").read()).hexdigest()
         assert h == checksums[base], f"LINCS SHA512 mismatch: {base}"
-        print(f"  LINCS SHA512 verified: {base}")
+        n_verified += 1
+        print(f"  LINCS SHA512 verified: {base} "
+              f"{'(cache hit)' if m.get('cached') else '(fresh download)'}")
+assert n_verified >= 1, "no LINCS file matched a published SHA512 entry — verification did not run"
+print(f"LINCS SHA512 verification: {n_verified} file(s) match published sums")
 
 print("GEO calibration series + platform annotations ...")
 for name, cfg in PANEL.items():

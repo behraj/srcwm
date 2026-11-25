@@ -17,6 +17,9 @@ def fetch(url, dest, min_bytes=100, retries=5):
     dest = Path(dest); dest.parent.mkdir(parents=True, exist_ok=True)
     if dest.exists() and dest.stat().st_size >= min_bytes:
         print(f"  cached: {dest.name} ({dest.stat().st_size/1e6:.1f} MB)")
+        MANIFEST.append(dict(file=str(dest), url=url, sha256=sha256_file(dest),
+                             bytes=dest.stat().st_size, cached=True,
+                             fetched_utc=datetime.now(timezone.utc).isoformat()))
         return dest
     wait = 2.0
     for attempt in range(1, retries + 1):
